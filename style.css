@@ -1,0 +1,49 @@
+
+button {
+  background-color: #8618cf; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #a25bc5; 
+  transform: scale(1.05); 
+}
+
+.selected {
+  background-color: #FFD700; 
+  color: #B22222; 
+}
+
+.alt-selected {
+  background-color: #44b2dd; 
+  color: #095289; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
